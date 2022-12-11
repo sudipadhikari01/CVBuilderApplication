@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cover_photo"
+            android:contentDescription="@string/my_college"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/company_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:text="@string/work_experience" />
+
+            <TextView
+                android:id="@+id/duration_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:padding="5dp"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                tools:text="@string/work_experience" />
+
+            <TextView
+                android:id="@+id/location_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:padding="5dp"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                tools:text="@string/work_experience" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/roles_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2dp"
+        android:padding="5dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        tools:text="@string/work_experience" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/light_gray"/>
+
+</LinearLayout>

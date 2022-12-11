@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CVBuilderApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">Home</string>
+    <string name="about_me">About Me</string>
+    <string name="work">Work</string>
+    <string name="contact">Contact</string>
+
+    <string name="cv">CV-Sudip</string>
+
+    <string name="add">Add</string>
+
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="telegram">Telegram</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="cover_photo">Background Photo</string>
+
+    <string name="name">Sudip Adhikari</string>
+    <string name="position">Java Developer</string>
+
+    <string name="career_note">Career Note</string>
+    <string name="career_note_desc"><b>Completed</b> on-campus studies and currently taking distance education courses to complete a Master\'s Degree in Computer Science (Available for full-time <b>W2</b> employment).</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="work_experience_desc"><b>Language: </b>Java, Spring Boot, MySQL, AWS,  \n<b>Frameworks/web: </b>Spring(Boot, MVC, Security), Hibernate, JDBC \n<b>Microservices/Cloud: </b>AWS, GCP, Docker, Kubernetes, Kafka \n<b>Databases: </b>Oracle, PL/SQL, MySQL, MongoDB \n<b>Tools: </b>Intellij IDE, Maven, GitHub, GitLab, UML \n</string>
+
+    <string name="about_me_desc">An enthusiastic individual who is seeking a placement position to enable skills to be utilized.Reliable Java Developer with 4 years of professional experience administering projects through all phases of the software development life cycle. Streamline backend development, application integration, and technical support while improving performance and functionality. Skilled in using technologies such as Java, Spring Boot, Hibernate, MySQL, IntelliJ, REST API, Git, and Jira. </string>
+
+    <string name="education">Education</string>
+    <string name="my_college">My College</string>
+    <string name="certification">Certification</string>
+
+    <string name="my_contacts">My Contacts</string>
+
+    <string name="information_to_share">
+        Name: Sudip Adhikari
+        LinkedIn Profile: https://www.linkedin.com/in/sudipadhikari247/
+    </string>
+
+    <string name="email">sudip.adhikari01@gmail.com</string>
+    <string name="linkedin_profile">https://www.linkedin.com/in/sudipadhikari247</string>
+    <string name="github_profile">https://github.com/sudipadhikari01</string>
+
+    <string name="login">login</string>
+    <string name="enter_email">Enter your email address</string>
+    <string name="enter_password">Enter your password</string>
+
+</resources>
